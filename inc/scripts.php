@@ -6,15 +6,15 @@ function mdlwp_scripts() {
 	$primary = get_theme_mod( 'primary_color', 'indigo' );
 	$secondary = get_theme_mod( 'secondary_color', 'pink' );
 
-	wp_enqueue_style( 'mdlwp-mdl-css', '//storage.googleapis.com/code.getmdl.io/1.0.5/material.'.$primary.'-'.$secondary.'.min.css' );
+	wp_enqueue_style( 'mdlwp-mdl-css', '//storage.googleapis.com/code.getmdl.io/1.1.3/material.'.$primary.'-'.$secondary.'.min.css' );
 
 	wp_enqueue_style( 'mdlwp-mdl-icons', '//fonts.googleapis.com/icon?family=Material+Icons' );
 
 	wp_enqueue_style( 'mdlwp-mdl-roboto', '//fonts.googleapis.com/css?family=Roboto:300,400,500,700' );
 
-	wp_enqueue_style( 'mdlwp-style', get_stylesheet_directory_uri() . '/style.min.css' );
+	wp_enqueue_style( 'mdlwp-style', get_template_directory_uri() . '/style.min.css' );
 
-	wp_enqueue_script( 'mdlwp-mdl-js', '//storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js', array(), '1.0.5', true );
+	wp_enqueue_script( 'mdlwp-mdl-js', '//storage.googleapis.com/code.getmdl.io/1.1.3/material.min.js', array(), '1.1.1', true );
 
 	wp_enqueue_script( 'mdlwp-mdlwp-js', get_template_directory_uri() . '/js/dist/scripts.min.js', array('jquery'), '1.1.9', true );
 

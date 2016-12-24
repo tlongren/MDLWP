@@ -1,3 +1,17 @@
+## v1.2.3 (June 1, 2016)
+- fix gulp tasks for sass
+- remove gulp-minify-css
+- merged two pull request that fix child theme and customizer colors
+
+## v1.2.2 (April 6, 2016)
+- update to MDL 1.1.3
+
+## v1.2.1 (Febuary 15, 2016)
+- update to MDL 1.1.1
+
+## v1.2.0 (November 3, 2015)
+- update to MDL 1.0.6
+
 ## v1.1.9 (Septemeber 15, 2015)
 - update to MDL 1.0.5
 - remove sticky footer, broke fixed navigation
